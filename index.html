@@ -38,7 +38,7 @@
                 params.get("pitch")
             ).dataURI;
 
-            saveAs(dataURItoBlob(wave), "animalese.wav");
+            document.body.innerText = wave;
         });
 
         function generateWav() {
